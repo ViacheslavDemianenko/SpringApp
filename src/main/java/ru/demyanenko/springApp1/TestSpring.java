@@ -16,8 +16,8 @@ public class TestSpring {
 
         musicPlayer.playMusic();
 
-        System.out.println(musicPlayer.getName());
-        System.out.println(musicPlayer.getVolume());
+        System.out.println("Марка: "+musicPlayer.getName());
+        System.out.println("Громкость: "+musicPlayer.getVolume());
 
         context.close();
     }
